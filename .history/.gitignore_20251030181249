@@ -30,7 +30,8 @@ __pycache__/
 *.swp
 *~
 
-
+# === Git hariç tutmak istemediğimiz klasörleri izinle ===
+!.history/
 
 # === Sık kullanılan yedek ve sürüm dosyaları ===
 *.zip
@@ -40,4 +41,3 @@ __pycache__/
 
 # === IDE önbellekleri ===
 .idea/
-!.history/
