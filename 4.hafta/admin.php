@@ -20,6 +20,11 @@ require_role('admin');
       <a href="change_username.php" style="background:gold;color:#000;padding:10px 14px;border-radius:8px;text-decoration:none;">Kullanıcı Adı Değiştir</a>
       <a href="logout.php" style="background:#ffdf00;color:#000;padding:10px 14px;border-radius:8px;text-decoration:none;">Çıkış Yap</a>
     </div>
+    <div style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap;">
+      <a href="books.php" class="btn">Kitaplar</a>
+      <a href="members.php" class="btn">Üyeler</a>
+    </div>
+
   </div>
 </body>
 </html>
