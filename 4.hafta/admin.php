@@ -15,12 +15,13 @@ require_role('admin');
     <p>Hoş geldin, <strong><?php echo htmlspecialchars($_SESSION['full_name']); ?></strong> (<?php echo htmlspecialchars($_SESSION['username']); ?>)</p>
     <p>Rolün: <b><?php echo htmlspecialchars($_SESSION['role']); ?></b></p>
 
-    <div style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap;">
-      <a href="change_password.php" style="background:gold;color:#000;padding:10px 14px;border-radius:8px;text-decoration:none;">Şifre Değiştir</a>
-      <a href="change_username.php" style="background:gold;color:#000;padding:10px 14px;border-radius:8px;text-decoration:none;">Kullanıcı Adı Değiştir</a>
-      <a href="logout.php" style="background:#ffdf00;color:#000;padding:10px 14px;border-radius:8px;text-decoration:none;">Çıkış Yap</a>
+    <div style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
+      <a href="change_password.php" class="btn">Şifre Değiştir</a>
+      <a href="change_username.php" class="btn">Kullanıcı Adı Değiştir</a>
+      <a href="logout.php" class="btn">Çıkış Yap</a>
     </div>
-    <div style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap;">
+
+    <div style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
       <a href="books.php" class="btn">Kitaplar</a>
       <a href="members.php" class="btn">Üyeler</a>
     </div>
